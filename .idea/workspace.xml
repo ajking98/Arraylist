@@ -4,10 +4,7 @@
     <option name="SCOPE_TYPE" value="3" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be54e700-adc3-496b-90b5-6700bd319968" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArrayList.java" afterPath="$PROJECT_DIR$/src/ArrayList.java" />
-    </list>
+    <list default="true" id="be54e700-adc3-496b-90b5-6700bd319968" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -540,9 +537,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ArrayListTest2 - 2017.08.26 at 17h 07m 08s.xml">
-      <configuration name="ArrayListTest2" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ArrayListTest2 - 2017.08.26 at 17h 07m 16s.xml">
       <configuration name="ArrayListTest2" configurationId="JUnit" />
     </history-entry>
@@ -559,6 +553,9 @@
       <configuration name="ArrayListTest2" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ArrayListTest2 - 2017.08.26 at 18h 08m 41s.xml">
+      <configuration name="ArrayListTest2" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayListTest2 - 2017.08.26 at 18h 16m 43s.xml">
       <configuration name="ArrayListTest2" configurationId="JUnit" />
     </history-entry>
     <history-entry file="ArrayListTests - 2017.08.26 at 17h 22m 11s.xml">
