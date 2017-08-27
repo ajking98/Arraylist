@@ -486,6 +486,7 @@ public class ArrayListTest2 {
     @Test(expected = IndexOutOfBoundsException.class)
     public void testGetAtAIndexGreaterThanOrEqualToSize() {
         list.get(list.size());
+        System.out.println(list.get(list.size()));
     }
 
     @Test

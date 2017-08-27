@@ -79,14 +79,17 @@ public class ArrayList<T> implements ArrayListInterface<T> {
      */
     @Override
     public T removeAtIndex(int index) {
-        checkForIndexOutOfBoundForRemoingAtIndexMethod(index);
+        checkForIndexOutOfBoundForRemovingAtIndexMethod(index);
 
         T elementToRemove = getElement(index);
 
+
         //Off by 1 Error
-        for (int i = index; i < size; i++) {
+        for (int i = index; i < size - 1; i++) {
             insertDataAtIndexInBackingArray(i, getElement(i + 1));
         }
+
+        insertDataAtIndexInBackingArray(size - 1, null);
 
         decrementingSizeVariableOfBackingArray();
 
@@ -101,11 +104,11 @@ public class ArrayList<T> implements ArrayListInterface<T> {
 
         T elementToRemove = getElement(0);
 
-        for (int i = 0; i < size; i++) {
+        for (int i = 0; i < size - 1; i++) {
             insertDataAtIndexInBackingArray(i, getElement(i + 1));
         }
 
-        insertDataAtIndexInBackingArray(size, null);
+        insertDataAtIndexInBackingArray(size - 1, null);
 
         decrementingSizeVariableOfBackingArray();
 
@@ -128,8 +131,8 @@ public class ArrayList<T> implements ArrayListInterface<T> {
     }
 
     @Override
-    public T get(int index) {
-        checkForIndexOutOfBound(index);
+    public T get(int index) throws IndexOutOfBoundsException  {
+        checkForIndexOutOfBoundForRemovingAtIndexMethod(index);
 
         return getElement(index);
     }
@@ -220,8 +223,9 @@ public class ArrayList<T> implements ArrayListInterface<T> {
 
     private void printElementsOfBackingArray() {
         for (int i = 0; i < size; i++) {
-            System.out.println(getElement(i));
+            System.out.print(getElement(i) + " ");
         }
+        System.out.println();
     }
 
     private void shiftingElementsToMakeSpaceAtFront() {
@@ -231,12 +235,13 @@ public class ArrayList<T> implements ArrayListInterface<T> {
     }
 
     private void shiftingArrayElementToRight(int index) {
-        for (int i = size - 1; i > index; i--) {
+        for (int i = size - 1; i >= index; i--) {
             insertDataAtIndexInBackingArray(i + 1, getElement(i));
+
         }
     }
 
-    private void checkForIndexOutOfBoundForRemoingAtIndexMethod(int index) {
+    private void checkForIndexOutOfBoundForRemovingAtIndexMethod(int index) {
         if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException();
         }
@@ -250,7 +255,7 @@ public class ArrayList<T> implements ArrayListInterface<T> {
         return backingArray[index];
     }
 
-    private void checkForIndexOutOfBound(int index){
+    private void checkForIndexOutOfBound(int index) throws IndexOutOfBoundsException {
         if (index < 0 || index > size) {
             throw new IndexOutOfBoundsException();
         }

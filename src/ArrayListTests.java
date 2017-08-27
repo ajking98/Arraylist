@@ -42,6 +42,7 @@ public class ArrayListTests {
         intList.addAtIndex(2, 3);
         intList.addAtIndex(3, 4);
         intList.get(4);
+        System.out.println(intList.get(3));
     }
 
     @Test(timeout = TIMEOUT, expected = IndexOutOfBoundsException.class)
