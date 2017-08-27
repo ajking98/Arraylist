@@ -1,5 +1,3 @@
-//Mohamud was here
-
 /**
  * Your implementation of an ArrayList.
  *
@@ -31,8 +29,9 @@ public class ArrayList<T> implements ArrayListInterface<T> {
      * @throws java.lang.IllegalArgumentException if data is null.
      */
     @Override
-    public void addAtIndex(int index, T data) {
-        checkForIndexOutOfBound(index);
+    public void addAtIndex(int index, T data) throws
+            IndexOutOfBoundsException, IllegalArgumentException   {
+        checkForIndexOutOfBounds(index, size + 1);
 
         checkIllegalArguement(data);
 
@@ -50,7 +49,7 @@ public class ArrayList<T> implements ArrayListInterface<T> {
      * @throws java.lang.IllegalArgumentException if data is null.
      */
     @Override
-    public void addToFront(T data) {
+    public void addToFront(T data) throws IllegalArgumentException {
         checkIllegalArguement(data);
 
         checkIfBackingArrayCapacityNeedsToIncrease();
@@ -63,7 +62,7 @@ public class ArrayList<T> implements ArrayListInterface<T> {
     }
 
     @Override
-    public void addToBack(T data) {
+    public void addToBack(T data) throws IllegalArgumentException {
         checkIllegalArguement(data);
 
         checkIfBackingArrayCapacityNeedsToIncrease();
@@ -80,13 +79,11 @@ public class ArrayList<T> implements ArrayListInterface<T> {
      * index >= size.
      */
     @Override
-    public T removeAtIndex(int index) {
-        checkForIndexOutOfBoundForRemovingAtIndexMethod(index);
+    public T removeAtIndex(int index) throws IndexOutOfBoundsException {
+        checkForIndexOutOfBounds(index, size);
 
         T elementToRemove = getElement(index);
 
-
-        //Off by 1 Error
         for (int i = index; i < size - 1; i++) {
             insertDataAtIndexInBackingArray(i, getElement(i + 1));
         }
@@ -134,7 +131,7 @@ public class ArrayList<T> implements ArrayListInterface<T> {
 
     @Override
     public T get(int index) throws IndexOutOfBoundsException  {
-        checkForIndexOutOfBoundForRemovingAtIndexMethod(index);
+        checkForIndexOutOfBounds(index, size);
 
         return getElement(index);
     }
@@ -191,38 +188,72 @@ public class ArrayList<T> implements ArrayListInterface<T> {
         overwriteBackingArray(newList);
     }
 
+    /**
+     *
+     * @param newList the newList to set to the old arrayList
+     */
     private void overwriteBackingArray(T[] newList) {
         backingArray = newList;
     }
 
+    /**
+     *
+     * this is meant to check if the backingArray needs to be increase or not
+     */
     private void checkIfBackingArrayCapacityNeedsToIncrease() {
         if (isBackingArrayFull()) {
             expandCapacity();
         }
     }
 
+    /**
+     *
+     * @param index the index of the array to add to the array
+     * @param data the element to be added
+     */
     private void insertDataAtIndexInBackingArray(int index, T data) {
         backingArray[index] = data;
     }
 
+    /**
+     *
+     * this increments the size variable
+     */
     private void incrementingSizeVariableOfBackingArray() {
         size++;
     }
 
+    /**
+     *
+     * @return a boolean that lets us know if the arrayList is full
+     */
     private boolean isBackingArrayFull() {
         return size >= backingArray.length;
     }
 
+    /**
+     *
+     * @param data the data with generic type that is used to check for the
+     *             exception of illegalArguement
+     */
     private void checkIllegalArguement(T data) {
         if (data == null) {
             throw new IllegalArgumentException();
         }
     }
 
+    /**
+     * prints the size of the backingArray, this is used for testing purposes
+     *
+     */
     private void printSizeOfBackingArray() {
         System.out.println(size);
     }
 
+    /**
+     *
+     * print the elements of the backingArray, this is used for testing purposes
+     */
     private void printElementsOfBackingArray() {
         for (int i = 0; i < size; i++) {
             System.out.print(getElement(i) + " ");
@@ -230,12 +261,22 @@ public class ArrayList<T> implements ArrayListInterface<T> {
         System.out.println();
     }
 
+    /**
+     *
+     * shifts all the elements to the right to make space for the element
+     * that will be added to the front
+     */
     private void shiftingElementsToMakeSpaceAtFront() {
         for (int i = size - 1; i >= 0; i--) {
             insertDataAtIndexInBackingArray(i + 1, getElement(i));
         }
     }
 
+    /**
+     *
+     * @param index the index of the array at the moment where it should be
+     *              shifted
+     */
     private void shiftingArrayElementToRight(int index) {
         for (int i = size - 1; i >= index; i--) {
             insertDataAtIndexInBackingArray(i + 1, getElement(i));
@@ -243,22 +284,32 @@ public class ArrayList<T> implements ArrayListInterface<T> {
         }
     }
 
-    private void checkForIndexOutOfBoundForRemovingAtIndexMethod(int index) {
-        if (index < 0 || index >= size) {
-            throw new IndexOutOfBoundsException();
-        }
-    }
-
+    /**
+     * the method decrements the size variable
+     *
+     */
     private void decrementingSizeVariableOfBackingArray() {
         size--;
     }
 
+    /**
+     *
+     * @param index the element at a certain index
+     * @return backingArray index (the element at that index of the array)
+     */
     private T getElement(int index) {
         return backingArray[index];
     }
 
-    private void checkForIndexOutOfBound(int index) throws IndexOutOfBoundsException {
-        if (index < 0 || index > size) {
+    /**
+     *
+     * @param index the index to check if it is out of bounds of the array
+     * @param size the size of the array at the moment
+     * @throws IndexOutOfBoundsException throws a index out of bounds exception
+     */
+    private void checkForIndexOutOfBounds(int index, int size)
+            throws IndexOutOfBoundsException {
+        if (index < 0 || index >= size) {
             throw new IndexOutOfBoundsException();
         }
     }
