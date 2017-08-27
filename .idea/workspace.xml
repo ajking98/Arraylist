@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="be54e700-adc3-496b-90b5-6700bd319968" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/HW1/ArrayList.class" afterPath="$PROJECT_DIR$/out/production/HW1/ArrayList.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArrayList.java" afterPath="$PROJECT_DIR$/src/ArrayList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArrayListTest2.java" afterPath="$PROJECT_DIR$/src/ArrayListTest2.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ArrayListTests.java" afterPath="$PROJECT_DIR$/src/ArrayListTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,14 +23,49 @@
         <entry file="file://$PROJECT_DIR$/src/ArrayList.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="559">
-              <caret line="258" column="37" lean-forward="true" selection-start-line="258" selection-start-column="37" selection-end-line="258" selection-end-column="37" />
+              <caret line="260" column="37" lean-forward="true" selection-start-line="260" selection-start-column="37" selection-end-line="260" selection-end-column="37" />
               <folding>
+                <element signature="docComment;class#ArrayList#0" expanded="true" />
                 <element signature="method#addAtIndex#0;class#ArrayList#0" expanded="true" />
                 <element signature="method#get#0;class#ArrayList#0" expanded="true" />
                 <element signature="method#getBackingArray#0;class#ArrayList#0" expanded="true" />
-                <element signature="e#4758#4759#0" expanded="true" />
-                <element signature="e#4800#4801#0" expanded="true" />
+                <element signature="e#4778#4779#0" expanded="true" />
+                <element signature="e#4820#4821#0" expanded="true" />
                 <element signature="method#checkForIndexOutOfBoundForRemovingAtIndexMethod#0;class#ArrayList#0" expanded="true" />
+                <marker date="1503792598360" expanded="false" signature="308:411" ph="/**...*/" />
+                <marker date="1503792598360" expanded="false" signature="434:445" ph=" { " />
+                <marker date="1503792598360" expanded="false" signature="503:509" ph=" }" />
+                <marker date="1503792598360" expanded="false" signature="515:792" ph="/**...*/" />
+                <marker date="1503792598360" expanded="false" signature="1150:1276" ph="/**...*/" />
+                <marker date="1503792598360" expanded="false" signature="1326:1574" ph="{...}" />
+                <marker date="1503792598360" expanded="false" signature="1624:1828" ph="{...}" />
+                <marker date="1503792598360" expanded="false" signature="1834:2038" ph="/**...*/" />
+                <marker date="1503792598360" expanded="false" signature="2091:2505" ph="{...}" />
+                <marker date="1503792598360" expanded="false" signature="2552:2928" ph="{...}" />
+                <marker date="1503792598360" expanded="false" signature="2974:3216" ph="{...}" />
+                <marker date="1503792598360" expanded="false" signature="3445:3800" ph="{...}" />
+                <marker date="1503792598360" expanded="false" signature="3837:3848" ph=" { " />
+                <marker date="1503792598360" expanded="false" signature="3860:3866" ph=" }" />
+                <marker date="1503792598360" expanded="false" signature="3906:4000" ph="{...}" />
+                <marker date="1503792598360" expanded="false" signature="4122:4241" ph="/**...*/" />
+                <marker date="1503792598360" expanded="false" signature="4276:4468" ph="{...}" />
+                <marker date="1503792598360" expanded="false" signature="4521:4532" ph=" { " />
+                <marker date="1503792598360" expanded="false" signature="4555:4561" ph=" }" />
+                <marker date="1503792598360" expanded="false" signature="4625:4708" ph="{...}" />
+                <marker date="1503792598360" expanded="false" signature="4880:4891" ph=" { " />
+                <marker date="1503792598360" expanded="false" signature="4898:4904" ph=" }" />
+                <marker date="1503792598360" expanded="false" signature="4946:4957" ph=" { " />
+                <marker date="1503792598360" expanded="false" signature="4992:4998" ph=" }" />
+                <marker date="1503792598360" expanded="false" signature="5047:5142" ph="{...}" />
+                <marker date="1503792598360" expanded="false" signature="5186:5197" ph=" { " />
+                <marker date="1503792598360" expanded="false" signature="5222:5228" ph=" }" />
+                <marker date="1503792598360" expanded="false" signature="5277:5416" ph="{...}" />
+                <marker date="1503792598360" expanded="false" signature="5472:5602" ph="{...}" />
+                <marker date="1503792598360" expanded="false" signature="5660:5795" ph="{...}" />
+                <marker date="1503792598360" expanded="false" signature="6042:6053" ph=" { " />
+                <marker date="1503792598360" expanded="false" signature="6060:6066" ph=" }" />
+                <marker date="1503792598360" expanded="false" signature="6103:6114" ph=" { " />
+                <marker date="1503792598360" expanded="false" signature="6141:6147" ph=" }" />
               </folding>
             </state>
           </provider>
@@ -574,12 +609,47 @@
         <state relative-caret-position="1554">
           <caret line="249" column="0" lean-forward="false" selection-start-line="249" selection-start-column="0" selection-end-line="249" selection-end-column="0" />
           <folding>
+            <element signature="docComment;class#ArrayList#0" expanded="true" />
             <element signature="method#addAtIndex#0;class#ArrayList#0" expanded="true" />
             <element signature="method#get#0;class#ArrayList#0" expanded="true" />
             <element signature="method#getBackingArray#0;class#ArrayList#0" expanded="true" />
-            <element signature="e#4758#4759#0" expanded="true" />
-            <element signature="e#4800#4801#0" expanded="true" />
+            <element signature="e#4778#4779#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
             <element signature="method#checkForIndexOutOfBoundForRemovingAtIndexMethod#0;class#ArrayList#0" expanded="true" />
+            <marker date="1503792598360" expanded="false" signature="308:411" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="434:445" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="503:509" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="515:792" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="1150:1276" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="1326:1574" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="1624:1828" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="1834:2038" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="2091:2505" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="2552:2928" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="2974:3216" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="3445:3800" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="3837:3848" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="3860:3866" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="3906:4000" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4122:4241" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="4276:4468" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4521:4532" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4555:4561" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="4625:4708" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4880:4891" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4898:4904" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="4946:4957" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4992:4998" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="5047:5142" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5186:5197" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="5222:5228" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="5277:5416" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5472:5602" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5660:5795" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="6042:6053" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="6060:6066" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="6103:6114" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="6141:6147" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -618,12 +688,47 @@
         <state relative-caret-position="3486">
           <caret line="168" column="49" lean-forward="false" selection-start-line="168" selection-start-column="49" selection-end-line="168" selection-end-column="49" />
           <folding>
+            <element signature="docComment;class#ArrayList#0" expanded="true" />
             <element signature="method#addAtIndex#0;class#ArrayList#0" expanded="true" />
             <element signature="method#get#0;class#ArrayList#0" expanded="true" />
             <element signature="method#getBackingArray#0;class#ArrayList#0" expanded="true" />
-            <element signature="e#4758#4759#0" expanded="true" />
-            <element signature="e#4800#4801#0" expanded="true" />
+            <element signature="e#4778#4779#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
             <element signature="method#checkForIndexOutOfBoundForRemovingAtIndexMethod#0;class#ArrayList#0" expanded="true" />
+            <marker date="1503792598360" expanded="false" signature="308:411" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="434:445" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="503:509" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="515:792" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="1150:1276" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="1326:1574" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="1624:1828" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="1834:2038" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="2091:2505" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="2552:2928" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="2974:3216" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="3445:3800" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="3837:3848" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="3860:3866" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="3906:4000" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4122:4241" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="4276:4468" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4521:4532" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4555:4561" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="4625:4708" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4880:4891" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4898:4904" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="4946:4957" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4992:4998" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="5047:5142" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5186:5197" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="5222:5228" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="5277:5416" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5472:5602" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5660:5795" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="6042:6053" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="6060:6066" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="6103:6114" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="6141:6147" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -643,12 +748,47 @@
         <state relative-caret-position="3276">
           <caret line="158" column="45" lean-forward="false" selection-start-line="158" selection-start-column="45" selection-end-line="158" selection-end-column="45" />
           <folding>
+            <element signature="docComment;class#ArrayList#0" expanded="true" />
             <element signature="method#addAtIndex#0;class#ArrayList#0" expanded="true" />
             <element signature="method#get#0;class#ArrayList#0" expanded="true" />
             <element signature="method#getBackingArray#0;class#ArrayList#0" expanded="true" />
-            <element signature="e#4758#4759#0" expanded="true" />
-            <element signature="e#4800#4801#0" expanded="true" />
+            <element signature="e#4778#4779#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
             <element signature="method#checkForIndexOutOfBoundForRemovingAtIndexMethod#0;class#ArrayList#0" expanded="true" />
+            <marker date="1503792598360" expanded="false" signature="308:411" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="434:445" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="503:509" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="515:792" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="1150:1276" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="1326:1574" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="1624:1828" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="1834:2038" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="2091:2505" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="2552:2928" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="2974:3216" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="3445:3800" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="3837:3848" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="3860:3866" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="3906:4000" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4122:4241" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="4276:4468" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4521:4532" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4555:4561" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="4625:4708" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4880:4891" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4898:4904" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="4946:4957" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4992:4998" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="5047:5142" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5186:5197" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="5222:5228" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="5277:5416" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5472:5602" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5660:5795" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="6042:6053" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="6060:6066" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="6103:6114" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="6141:6147" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -704,12 +844,47 @@
         <state relative-caret-position="588">
           <caret line="28" column="49" lean-forward="true" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
           <folding>
+            <element signature="docComment;class#ArrayList#0" expanded="true" />
             <element signature="method#addAtIndex#0;class#ArrayList#0" expanded="true" />
             <element signature="method#get#0;class#ArrayList#0" expanded="true" />
             <element signature="method#getBackingArray#0;class#ArrayList#0" expanded="true" />
-            <element signature="e#4758#4759#0" expanded="true" />
-            <element signature="e#4800#4801#0" expanded="true" />
+            <element signature="e#4778#4779#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
             <element signature="method#checkForIndexOutOfBoundForRemovingAtIndexMethod#0;class#ArrayList#0" expanded="true" />
+            <marker date="1503792598360" expanded="false" signature="308:411" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="434:445" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="503:509" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="515:792" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="1150:1276" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="1326:1574" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="1624:1828" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="1834:2038" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="2091:2505" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="2552:2928" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="2974:3216" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="3445:3800" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="3837:3848" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="3860:3866" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="3906:4000" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4122:4241" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="4276:4468" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4521:4532" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4555:4561" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="4625:4708" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4880:4891" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4898:4904" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="4946:4957" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4992:4998" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="5047:5142" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5186:5197" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="5222:5228" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="5277:5416" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5472:5602" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5660:5795" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="6042:6053" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="6060:6066" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="6103:6114" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="6141:6147" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -747,12 +922,47 @@
         <state relative-caret-position="1239">
           <caret line="59" column="17" lean-forward="false" selection-start-line="59" selection-start-column="17" selection-end-line="59" selection-end-column="17" />
           <folding>
+            <element signature="docComment;class#ArrayList#0" expanded="true" />
             <element signature="method#addAtIndex#0;class#ArrayList#0" expanded="true" />
             <element signature="method#get#0;class#ArrayList#0" expanded="true" />
             <element signature="method#getBackingArray#0;class#ArrayList#0" expanded="true" />
-            <element signature="e#4758#4759#0" expanded="true" />
-            <element signature="e#4800#4801#0" expanded="true" />
+            <element signature="e#4778#4779#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
             <element signature="method#checkForIndexOutOfBoundForRemovingAtIndexMethod#0;class#ArrayList#0" expanded="true" />
+            <marker date="1503792598360" expanded="false" signature="308:411" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="434:445" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="503:509" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="515:792" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="1150:1276" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="1326:1574" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="1624:1828" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="1834:2038" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="2091:2505" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="2552:2928" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="2974:3216" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="3445:3800" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="3837:3848" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="3860:3866" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="3906:4000" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4122:4241" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="4276:4468" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4521:4532" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4555:4561" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="4625:4708" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4880:4891" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4898:4904" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="4946:4957" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4992:4998" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="5047:5142" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5186:5197" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="5222:5228" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="5277:5416" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5472:5602" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5660:5795" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="6042:6053" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="6060:6066" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="6103:6114" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="6141:6147" ph=" }" />
           </folding>
         </state>
       </provider>
@@ -848,14 +1058,49 @@
     <entry file="file://$PROJECT_DIR$/src/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="559">
-          <caret line="258" column="37" lean-forward="true" selection-start-line="258" selection-start-column="37" selection-end-line="258" selection-end-column="37" />
+          <caret line="260" column="37" lean-forward="true" selection-start-line="260" selection-start-column="37" selection-end-line="260" selection-end-column="37" />
           <folding>
+            <element signature="docComment;class#ArrayList#0" expanded="true" />
             <element signature="method#addAtIndex#0;class#ArrayList#0" expanded="true" />
             <element signature="method#get#0;class#ArrayList#0" expanded="true" />
             <element signature="method#getBackingArray#0;class#ArrayList#0" expanded="true" />
-            <element signature="e#4758#4759#0" expanded="true" />
-            <element signature="e#4800#4801#0" expanded="true" />
+            <element signature="e#4778#4779#0" expanded="true" />
+            <element signature="e#4820#4821#0" expanded="true" />
             <element signature="method#checkForIndexOutOfBoundForRemovingAtIndexMethod#0;class#ArrayList#0" expanded="true" />
+            <marker date="1503792598360" expanded="false" signature="308:411" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="434:445" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="503:509" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="515:792" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="1150:1276" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="1326:1574" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="1624:1828" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="1834:2038" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="2091:2505" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="2552:2928" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="2974:3216" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="3445:3800" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="3837:3848" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="3860:3866" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="3906:4000" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4122:4241" ph="/**...*/" />
+            <marker date="1503792598360" expanded="false" signature="4276:4468" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4521:4532" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4555:4561" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="4625:4708" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="4880:4891" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4898:4904" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="4946:4957" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="4992:4998" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="5047:5142" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5186:5197" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="5222:5228" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="5277:5416" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5472:5602" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="5660:5795" ph="{...}" />
+            <marker date="1503792598360" expanded="false" signature="6042:6053" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="6060:6066" ph=" }" />
+            <marker date="1503792598360" expanded="false" signature="6103:6114" ph=" { " />
+            <marker date="1503792598360" expanded="false" signature="6141:6147" ph=" }" />
           </folding>
         </state>
       </provider>
